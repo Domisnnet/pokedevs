@@ -1,0 +1,182 @@
+body, html {
+    font-family: "Poppins", sans-serif;
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;  /* Otimização da imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 88%;
+}
+
+body::before { /* Opacidade parcial */
+    content: ""; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
+    backdrop-filter: blur(7px);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.pokedevs {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0px;
+}
+
+.cartao-pokedev {
+    display: none;
+    max-width: 280px;
+
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9); /* 8px para direita, 8x para baixo, 10px de blur */
+}
+
+.cartao-pokedev.aberto {
+    display: block;
+}
+
+.cartao-pokedev img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    animation: slide 6s linear infinite; /* Define a animação */
+}
+
+@keyframes slide { /* Define as etapas da animação */
+    0% { transform: translate(0px, 0px); } /* Início: sem translação */
+    25% { transform: translate(-25px, 0px); } /* Esquerda */
+    50% { transform: translate(-30px, 35px); } /* Cima */
+    75% { transform: translate(0px, 30px); } /* Direita */
+    100% { transform: translate(0px, 0px); } /* Embaixo (retorna ao início) */
+  
+}
+
+.cartao-pokedev .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-pokedev .nome {
+    margin-bottom: 7px;
+}
+
+.cartao-pokedev .tipo {
+    background-color: #ffffff;
+    font-size: 14px;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.cartao-pokedev .detalhes {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokedev .cartao-informacoes {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-right-radius: 30px;
+}
+
+.cartao-pokedev .cartao-informacoes h3 {
+    font-size: 19px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pokedev .cartao-informacoes .descricao {
+    padding: 0 10px;
+    font-size: 15px;
+    max-height: 160px;
+    overflow-y: scroll;
+}
+
+.tipo-eletrico {
+    background-color: #fcc719;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tipo-fogo {
+    background-color: #f15000d2;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tipo-agua {
+    background-color: #015C98;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tipo-grama {
+    background-color: #49D0B0;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tipo-trevas {
+    background-color: #BA68C8;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tipo-fada {
+    background-color: #C29791;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .pokedev img {
+    width: 42%;
+    padding-left: 15px;
+}
+
+.listagem .pokedev {
+    background-color: #6b727a;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    min-height: 70px;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.9); /* 7px para direita, 7x para baixo, 9px de blur */
+
+    transition: 0.15 ease-in-out;
+}
+
+.listagem .pokedev:hover {
+    transform: scale(1.05);
+}
+
+.listagem .pokedev span {
+    padding-right: 20px;
+}
+
+.listagem .pokedev.ativo {
+    background-color: #fa6668;
+}
