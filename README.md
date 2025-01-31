@@ -1,5 +1,5 @@
 
-# Pokedevs -  🚀
+🚀 # Pokedevs -  🚀
 
 ![Pokedevs](imagens/devchu.png)
 
@@ -45,18 +45,21 @@ Este projeto foi desenvolvido usando:
 
 ## Como Usar 🚀
 
+Clique no botão abaixo para acessar:
 
+<a href="https://domisnnet.github.io/spotify/">
+   <img src="imagens/botão.webp" width="35px" height="35px" alt="Acessar">
+</a>
 
 ## Código Fonte 💻
 
 Para explorar o código-fonte e contribuir com o projeto, acesse:
 
-[Repositório do Pokedevs](https://github.com/domisnnet/pokedevs-semana-zero)
-*   Certifique-se de substituir `domisnnet/pokedevs-semana-zero` pelo link correto do seu repositório.
+[Repositório do Pokedevs](https://github.com/Domisnnet/pokedevs)
 
 ## Créditos 📝
 
-*   **Desenvolvedor:** [DomisDev](https://github.com/domisnnet)
+*   **Desenvolvedor:** <strong>DomisDev.</strong>
 *   **Design:** Inspirado em Pokémon e desenvolvido para a "Semana do Zero ao Programador Contratado".
 *   **Fontes:** Google Fonts.
 
@@ -91,4 +94,4 @@ Contribuições são sempre bem-vindas! Se você deseja contribuir com este proj
 
 ---
 
-Aproveite a experiência interativa com Pokedevs! 🎉
+Aproveite a experiência interativa com Pokedevs! 🚀
