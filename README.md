@@ -1,7 +1,7 @@
 
 🚀 # Pokedevs -  🚀
 
-![Pokedevs](imagens/devchu.png)
+![Pokedevs](imagens/iMac-24-1120x630.png)
 
 Bem-vindo ao projeto Pokedevs! Este é um projeto divertido e interativo que apresenta uma série de personagens inspirados em Pokémon, cada um representando um arquétipo de desenvolvedor. O projeto foi desenvolvido para a "Semana do Zero ao Programador Contratado" com o objetivo de praticar habilidades de front-end.
 
@@ -50,6 +50,8 @@ Clique no botão abaixo para acessar:
 <a href="https://domisnnet.github.io/spotify/">
    <img src="imagens/botão.webp" width="35px" height="35px" alt="Acessar">
 </a>
+
+---
 
 ## Código Fonte 💻
 
