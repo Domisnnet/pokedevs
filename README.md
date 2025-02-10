@@ -48,7 +48,7 @@ Este projeto foi desenvolvido usando:
 Clique no botão abaixo para acessar:
 
 <a href="https://domisnnet.github.io/pokedevs/" target="_blank" rel="noopener noreferrer">
-   <img src="imagens/botão.webp" width="35px" height="35px" alt="Acessar">
+   <img src="src/imagens/botão.webp" width="35px" height="35px" alt="Acessar">
 </a>
 
 ---
