@@ -1,7 +1,7 @@
 
 # Pokedevs -  🚀 🚀
 
-![Pokedevs](imagens/iMac-24-1120x630.png)
+![Pokedevs](src/imagens/iMac-24-1120x630.png)
 
 Bem-vindo ao projeto Pokedevs! Este é um projeto divertido e interativo que apresenta uma série de personagens inspirados em Pokémon, cada um representando um arquétipo de desenvolvedor. O projeto foi desenvolvido para a "Semana do Zero ao Programador Contratado" com o objetivo de praticar habilidades de front-end.
 
