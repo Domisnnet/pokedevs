@@ -69,11 +69,41 @@ Para explorar o código-fonte e contribuir com o projeto, acesse:
 
 Contribuições são sempre bem-vindas! Se você deseja contribuir com este projeto, siga estes passos:
 
-1.  Faça um fork do repositório.
-2.  Crie uma branch para suas mudanças (`git checkout -b minha-contribuicao`).
-3.  Faça suas alterações e commits (`git commit -am 'Adicione minha contribuição'`).
-4.  Envie suas alterações para o seu fork (`git push origin minha-contribuicao`).
-5.  Abra um Pull Request para o repositório original.
+1.  **Branch:** Crie uma branch para suas mudanças. Use nomes descritivos para indicar o tipo de contribuição, como `feat/nova-funcionalidade`, `fix/correcao-de-bug` ou `docs/melhoria-na-documentacao`.
+
+    ```bash
+    git checkout -b feat/nova-funcionalidade
+    ```
+
+    *   `git checkout`: Este comando cria e muda para uma nova branch.
+    *   `-b`:  Opção que indica a criação de uma nova branch.
+    *   `feat/nova-funcionalidade`:  Um exemplo de nome para a sua branch.  Escolha um nome que descreva a mudança que você está fazendo.  Se você estiver corrigindo um bug, use `fix/`.  Se você estiver adicionando documentação, use `docs/`.
+
+    [Documentação `git checkout`](https://git-scm.com/docs/git-checkout)
+
+2.  **Commit:** Faça commits com mensagens claras e concisas que expliquem o propósito da sua alteração. Use o imperativo (e.g., "Adiciona funcionalidade X", "Corrige bug Y").
+
+    ```bash
+    git commit -m 'Adiciona funcionalidade de busca por tipo de Pokémon'
+    ```
+
+    *   `git commit`: Este comando salva suas alterações localmente.
+    *   `-m`:  Opção para adicionar uma mensagem ao commit.
+    *   `'Adiciona funcionalidade de busca por tipo de Pokémon'`:  Um exemplo de mensagem de commit.  Seja específico e explique o que você mudou e por que.
+
+    [Documentação `git commit`](https://git-scm.com/docs/git-commit)
+
+3.  **Push:** Envie suas alterações para o seu fork.
+
+    ```bash
+    git push origin feat/nova-funcionalidade
+    ```
+
+    *   `git push`: Este comando envia seus commits para o seu repositório remoto (seu fork no GitHub).
+    *   `origin`:  Um atalho para o seu repositório remoto.
+    *   `feat/nova-funcionalidade`:  O nome da branch que você está enviando.
+
+    [Documentação `git push`](https://git-scm.com/docs/git-push)
 
 ## FAQ 🤔
 
