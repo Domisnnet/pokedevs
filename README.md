@@ -104,6 +104,8 @@ Contribuições são sempre bem-vindas! Se você deseja contribuir com este proj
     *   `feat/nova-funcionalidade`:  O nome da branch que você está enviando.
 
     [Documentação `git push`](https://git-scm.com/docs/git-push)
+    
+---
 
 ## FAQ 🤔
 
