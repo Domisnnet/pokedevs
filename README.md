@@ -65,6 +65,12 @@ Para explorar o código-fonte e contribuir com o projeto, acesse:
 *   **Design:** Inspirado em Pokémon e desenvolvido para a "Semana do Zero ao Programador Contratado".
 *   **Fontes:** Google Fonts.
 
+## 📝 Licença:
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
 ## Contribuindo 🤝
 
 Contribuições são sempre bem-vindas! Se você deseja contribuir com este projeto, siga estes passos:
